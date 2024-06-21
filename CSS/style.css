@@ -8,8 +8,7 @@ body {
     margin: 0;
 }
 nav {
-    background-color: black;
-    padding: 35px 0;
+    padding: 40px 0;
 }
 a {
     text-decoration: none;
@@ -35,4 +34,29 @@ ul .trans:hover {
 }
 ul .trans:hover a {
     color: #0dcaf0 !important;
+}
+.parent {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    height: 350px;
+}
+.enter {
+    position: relative;
+}
+.parent .enter .first {
+    padding: 20px 50px 20px 20px !important;
+    background: #1e202b;
+    color: white;
+    border: none;
+    box-shadow: none !important;
+}
+.parent .second {
+    padding: 14px 39px !important;
+    position: absolute;
+    top: 33%;
+    right: 13%;
+    background-color: #009ad8;
+}
+input::placeholder {
+    color: rgb(124, 124, 124) !important;
 }
