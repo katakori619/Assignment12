@@ -1,0 +1,38 @@
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+    margin: 0;
+}
+nav {
+    background-color: black;
+    padding: 35px 0;
+}
+a {
+    text-decoration: none;
+}
+ul li a {
+    font-weight: 400;
+}
+ul .trans {
+    border-color: transparent !important;
+}
+ul li {
+    transition-duration: 0.3s;
+}
+.image a h4 {
+    font-size: 1.1428571429em;
+    font-weight: 700;
+}
+.image a p {
+    font-size: 0.7142857143em;
+}
+ul .trans:hover {
+    border-color: #0dcaf0 !important;
+}
+ul .trans:hover a {
+    color: #0dcaf0 !important;
+}
