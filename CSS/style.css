@@ -60,3 +60,40 @@ ul .trans:hover a {
 input::placeholder {
     color: rgb(124, 124, 124) !important;
 }
+.today header , .aftertomorrow header , .tomorrow header {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.today , .aftertomorrow{
+    background-color: #323544;
+    color: white;
+}
+.tomorrow {
+    background-color: #262936;
+    color: white;
+}
+.parent2 .container {
+    width: 76%;
+}
+.container .row {
+    margin-top: -190px;
+    margin-bottom: 30px;
+}
+.container .row >* {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.today .location {
+    font-weight: 400;
+    font-size: 1.2857142857em;
+}
+.today .num {
+    font-size: 5.3rem;
+    font-weight: 700;
+}
+.tomorrow .degree , .aftertomorrow .degree {
+    font-size: 1.7142857143em;
+    font-weight: 700;
+}
+small {
+    font-size: 1.1428571429em;
+}
