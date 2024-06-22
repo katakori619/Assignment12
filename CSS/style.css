@@ -40,10 +40,10 @@ ul .trans:hover a {
     background-size: cover;
     height: 350px;
 }
-.enter {
+.enter , .subscribe {
     position: relative;
 }
-.parent .enter .first {
+.parent .enter .first , footer .subscribe .first {
     padding: 20px 50px 20px 20px !important;
     background: #1e202b;
     color: white;
@@ -74,11 +74,11 @@ input::placeholder {
 .parent2 .container {
     width: 76%;
 }
-.container .row {
+.parent2 .container .row {
     margin-top: -190px;
     margin-bottom: 30px;
 }
-.container .row >* {
+.parent2 .container .row >* {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
@@ -96,4 +96,36 @@ input::placeholder {
 }
 small {
     font-size: 1.1428571429em;
+}
+footer {
+    background: #262936
+}
+footer .second {
+    padding: 14px 20px !important;
+    position: absolute;
+    top: 33%;
+    right: 11%;
+    background-color: #009ad8;
+}
+footer .second:hover {
+    background-color: #009ad8;
+}
+footer .first{
+    width: 90%;
+}
+footer .icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}
+footer .icons a:hover {
+    background: #009ad8;
+    color: white;
 }
