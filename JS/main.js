@@ -22,7 +22,7 @@ function weather(ro){
         let today = ro.current
         let todaytemp = today.temp_c
         let todaycondition = today.condition
-        let todaypercip = today.percip_mm
+        // let todaypercip = today.percip_mm
         let todaywindspeed = today.wind_kph
         let todaywinddirection = today.wind_dir
         let todaydate = new Date(today.last_updated.replace(" ", "T"));
@@ -46,7 +46,7 @@ function weather(ro){
                                 <img src="http:${todaycondition.icon}" width="90px" alt="">
                             </div>
                             <div class="custom text-info mb-4">${todaycondition.text}</div>
-                            <span class="me-3"><img src="images/umbrella.png" class="me-2" width="20px" alt="">${todaypercip}</span>
+                            <span class="me-3"><img src="images/umbrella.png" class="me-2" width="20px" alt="">20%</span>
                             <span class="me-3"><img src="images/wind.png" class="me-2" width="20px" alt="">${todaywindspeed}</span>
                             <span class="me-3"><img src="images/compass.png" class="me-2" width="20px" alt="">${todaywinddirection}</span>
                         </div>

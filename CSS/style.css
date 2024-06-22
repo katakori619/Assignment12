@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 nav {
-    padding: 40px 0;
+    padding: 40px 0 !important;
 }
 a {
     text-decoration: none;
@@ -128,4 +128,10 @@ footer .icons a {
 footer .icons a:hover {
     background: #009ad8;
     color: white;
+}
+
+@media (max-width:992px){
+    ul li{
+        width: 100%;
+    }
 }
