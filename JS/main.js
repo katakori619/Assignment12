@@ -6,7 +6,7 @@ let days = ['sunday','monday','tuesday','wednesday','thursday','friday','saturda
 let months = ['january','february','march','april','may','june','july','August','september','october','november','december']
 let city = 'cairo'
 async function getdata(city){
-    let result = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=aabeec622c664642b40100137242206&q=${city}&days=3`)
+    let result = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=aabeec622c664642b40100137242206&q=${city}&days=3`)
     if ( result.status !=result.ok && 400) {
         let ro = await result.json()
         weather(ro)
